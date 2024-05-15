@@ -1,9 +1,10 @@
+import AdminDrawer from '@/components/Shared/AdminDrawer';
 import React from 'react';
 
 const AdminPage = () => {
   return (
     <div>
-      <h2>This is admin page</h2>
+     <AdminDrawer></AdminDrawer>
       
     </div>
   );

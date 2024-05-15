@@ -5,7 +5,7 @@ const DashboardLayout = ({children}) => {
   return (
     <div className='m-10'>
       {children}
-    <Drawer></Drawer>
+    
     </div>
   );
 };

@@ -21,7 +21,7 @@ const Navbar = () => {
             <li><a>Contact</a></li>
           </ul>
         </div>
-        <a href='/' className="btn btn-ghost text-xl">daisyUI</a>
+        <a href='/' className="btn btn-ghost text-xl">CYBERTRON</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 space-x-2">

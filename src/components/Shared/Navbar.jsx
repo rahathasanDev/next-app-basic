@@ -14,8 +14,8 @@ const Navbar = () => {
             <li>
               <a href='/dashboard'>Dashboard</a>
               <ul className="p-2">
-                <li><a>admin</a></li>
-                <li><a>user</a></li>
+                <li><Link href='/dashboard/admin'>Admin</Link></li>
+                <li><Link href='/dashboard/user'>User</Link></li>
               </ul>
             </li>
             <li><a>Contact</a></li>
@@ -27,10 +27,15 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 space-x-2">
           <li >
             <Link href='/about'>About</Link>
-            </li>
-          <li> 
-          <Link href='/dashboard'>Dashboard</Link>
-            
+          </li>
+          <li>
+            <details>
+              <summary>Dashboard</summary>
+              <ul className="w-40">
+                <li><Link href='/dashboard/admin'>Admin</Link></li>
+                <li><Link href='/dashboard/user'>User</Link></li>
+              </ul>
+            </details>
           </li>
           <li><Link href='/contact'>Contact</Link></li>
         </ul>

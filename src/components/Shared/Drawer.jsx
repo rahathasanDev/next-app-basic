@@ -2,7 +2,7 @@ import React from 'react';
 
 const Drawer = () => {
   return (
-    <div className="drawer flex justify-center">
+    <div className="drawer flex justify-center mt-24">
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content">
         {/* Page content here */}

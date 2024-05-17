@@ -28,10 +28,10 @@ const Navbar = () => {
           <li >
             <Link href='/about'>About</Link>
           </li>
-          <li>
-            <details>
-              <summary>Dashboard</summary>
-              <ul className="w-40">
+          <li className='dropdown'>
+            <details >
+              <summary role="button">Dashboard</summary>
+              <ul className=" dropdown-content w-40">
                 <li><Link href='/dashboard/admin'>Admin</Link></li>
                 <li><Link href='/dashboard/user'>User</Link></li>
               </ul>

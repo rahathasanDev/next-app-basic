@@ -1,0 +1,41 @@
+{
+ "Cyber":[
+  {
+    "id": 1,
+    "title": "Norton 360 Deluxe",
+    "description": "Comprehensive antivirus and anti-malware protection with a secure VPN and password manager.",
+    "price": 99.99
+  },
+  {
+    "id": 2,
+    "title": "McAfee Total Protection",
+    "description": "All-in-one security solution with antivirus, identity protection, and VPN for safe browsing.",
+    "price": 89.99
+  },
+  {
+    "id": 3,
+    "title": "Bitdefender Total Security",
+    "description": "Advanced threat defense with multi-layer ransomware protection and anti-phishing features.",
+    "price": 79.99
+  },
+  {
+    "id": 4,
+    "title": "Kaspersky Internet Security",
+    "description": "Real-time antivirus and anti-malware protection with privacy tools and parental controls.",
+    "price": 59.99
+  },
+  {
+    "id": 5,
+    "title": "Avast Premium Security",
+    "description": "Full-featured protection against all types of malware, with a firewall and anti-phishing tools.",
+    "price": 69.99
+  },
+  {
+    "id": 6,
+    "title": "Trend Micro Maximum Security",
+    "description": "Comprehensive protection with AI learning to block new and evolving threats, plus a secure web browser.",
+    "price": 49.99
+  }
+]
+
+}
